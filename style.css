@@ -40,6 +40,8 @@ body {
   color: #fff;
   font-weight: 300;
   font-size: 22px;
+  transition: filter 0.25s;
+  filter: blur(10px);
 }
 
 .weather {

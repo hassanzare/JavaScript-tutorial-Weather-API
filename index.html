@@ -7,7 +7,15 @@
   </head>
   <body>
     <div class="weather">
-      <input placeholder="Your City" type="search" class="city__search" />
+      <input
+        list="suggestions"
+        placeholder="Your City"
+        type="search"
+        class="city__search"
+      />
+      <datalist id="suggestions">
+        <option value="tehran"></option>
+      </datalist>
 
       <div class="weather__today">
         <div class="weather__details">
